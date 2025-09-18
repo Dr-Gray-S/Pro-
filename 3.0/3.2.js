@@ -1,18 +1,5 @@
-var name = 'Ivan';
-console.log (name);
+const a = 'Ivan';
+const b = 'HalloWorld';
+const c = 'JavaScript';
 
-var number = 10;
-console.log(number);
-
-let age = 10;
-console.log(age);
-
-let message = 'HalloWorld';
-console.log(message);
-
-let person ={
-    name: 'Jack',
-    age: 25,
-    message: 'Hallo';
-}
-console.log(person);
+console.log(`${a} ${b} ${c}`);
