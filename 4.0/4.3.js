@@ -2,14 +2,14 @@ const year = prompt("Сколько вам лет ? ");
 const city = prompt("Откуда вы ? ");
 const sport = prompt("Какой ваш любимый вид спорта  ? ");
 
-let cityMsg = 'Ты живешь в ${city}';
+let cityMsg = `Ты живешь в ${city}`;
 const cl = city.trim().toLowerCase();
 
 if (city === 'Киев') {
-    cityMsg ('Ты живешь в столице Украины')
-} else (сity === 'Вашингтон'){
-    cityMsg ('Ты живешь в столице США')
-} else (сity === 'Лондон'){
+    cityMsg = ('Ты живешь в столице Украины')
+} else if  (сity === 'Вашингтон'){
+    cityMsg = ('Ты живешь в столице США')
+} else if (сity === 'Лондон'){
     cityMsg ('Ты живешь в столице Англии')
 }
 
