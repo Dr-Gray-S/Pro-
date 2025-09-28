@@ -7,10 +7,10 @@ const cl = city.trim().toLowerCase();
 
 if (city === 'Киев') {
     cityMsg = ('Ты живешь в столице Украины')
-} else if  (сity === 'Вашингтон'){
+} else if  (city === 'Вашингтон'){
     cityMsg = ('Ты живешь в столице США')
-} else if (сity === 'Лондон'){
+} else if (city === 'Лондон'){
     cityMsg ('Ты живешь в столице Англии')
 }
 
-alert (`Твой возраст: $[year].\n${cityMsg}\nТвой любимый вид спрта: ${sport}.`);
+alert (`Твой возраст: ${year}.\n${cityMsg}\nТвой любимый вид спрта: ${sport}.`);
