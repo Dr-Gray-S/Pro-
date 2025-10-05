@@ -1,16 +1,16 @@
-let numOrStr = prompt('input number or string');
-console.log(numOrStr)
+const raw = prompt ('input number or string');
+const trimmed = raw?.trim();
 
-switch (numOrStr) {
-	case null :
-		alert ('ви скасували');
-	break ;
-	case '' :
-		alert ('Empty String');
-	break ;
-	case isNaN( +numOrStr ) :
-		alert (' number is Ba_NaN');
-	break ;
+switch (true) {
+	case raw === null:
+	    alert('ви скасували');
+	break;
+	case trimmed === '':
+	    alert('Empty String');
+	break;
+	case Number.isNaN(Number(trimmed)):
+	    alert('number is Ba_NaN');
+	break;
 	default:
-		alert ('OK!');
+	    alert('OK!');
 }
